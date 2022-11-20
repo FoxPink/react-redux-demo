@@ -12,7 +12,7 @@ const Header = (props) => {
       <header
         style={{
           backgroundColor: `${user.themeColor}`,
-          backgroundImage: `linear-gradient(180deg,${user.themeColor} 2%, ${user.themeColor}, 65%, #181818 100%)`,
+          backgroundImage: `linear-gradient(180deg,${user.themeColor} 3%, ${user.themeColor}, 75%, #000 100%)`,
         }}
       >
         <div className="info-container">

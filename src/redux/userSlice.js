@@ -7,8 +7,8 @@ export const userSlide = createSlice({
     age: "23",
     about: "FoxPink",
     avaUrl:
-      "https://toigingiuvedep.vn/wp-content/uploads/2021/05/hinh-chibi-buon-dep-nhat-629x600.jpg",
-    themeColor: "#852999",
+      "http://clipart-library.com/images_k/chibi-transparent/chibi-transparent-11.png",
+    themeColor: "#FF8DC7",
     pending: false,
     error: false,
   },

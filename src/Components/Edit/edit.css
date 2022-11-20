@@ -2,19 +2,30 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(180deg, #3129c9, #c75cbc, #8c70fc, #00d4ff);
+  background-image: linear-gradient(200deg, #3a30e4, #c75cbc, #8d76e6, #00d4ff);
   height: 100vh;
+}
+.edit-profile {
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #ddd;
 }
 .close {
   background-color: transparent;
   border: none;
   align-self: end;
-  margin: 1rem 1.15rem 0 0;
+  margin: 1.2rem 1.2rem 0 0;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   color: #fff;
 }
+
+.close:hover {
+  opacity: 0.5;
+}
+
 .input-container {
   width: 80%;
   font-size: 1rem;

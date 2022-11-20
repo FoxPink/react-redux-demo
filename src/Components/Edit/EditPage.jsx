@@ -7,15 +7,16 @@ import "./edit.css";
 const EditPage = (props) => {
   const { setEdit } = props;
   const avaUrl = [
-    "https://i.pinimg.com/564x/bb/dc/a8/bbdca885e04ff6137e1311e523163363.jpg",
-    "https://wallpaperaccess.com/full/3786594.jpg",
+    "http://clipart-library.com/images_k/chibi-transparent/chibi-transparent-11.png",
+    "http://clipart-library.com/images_k/chibi-transparent/chibi-transparent-17.png",
+    "http://clipart-library.com/images_k/chibi-transparent/chibi-transparent-22.png",
   ];
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const [name, setName] = useState(user.name);
   const [age, setAge] = useState(user.age);
   const [about, setAbout] = useState(user.about);
-  const [theme, setTheme] = useState("#852999");
+  const [theme, setTheme] = useState("#FF8DC7");
   const [url, setUrl] = useState(user.avaUrl);
   const handleSubmit = (e) => {
     e.preventDefault();
